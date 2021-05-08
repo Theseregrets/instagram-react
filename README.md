@@ -1,3 +1,21 @@
+# instagram-clone using react
+
+this is an instagram-clone made using react, redux and firebase
+
+#### feature
+1. user authentication
+2. upload image
+3. input caption
+4. add comments
+5. signIn/Up 
+6. Log out
+
+<img src='./imgs/Screenshot (55).png'>
+|<img src='./imgs/Screenshot (56).png'>|<img src='./imgs/Screenshot (57).png'>|
+<img src='./imgs/Screenshot (58).png'>
+
+Made with love by Rishita Shaw
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
