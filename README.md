@@ -10,7 +10,8 @@ this is an instagram-clone made using react, redux and firebase
 5. signIn/Up 
 6. Log out
 
-<img src='./imgs/Screenshot (55).png'>
+
+<img src='./imgs/Screenshot (59).png'>
 |<img src='./imgs/Screenshot (56).png'>|<img src='./imgs/Screenshot (57).png'>|
 <img src='./imgs/Screenshot (58).png'>
 
