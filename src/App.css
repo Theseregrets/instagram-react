@@ -7,7 +7,14 @@
   background-color: #fafafa;
   height: 100vh;
   width: 100%;
+ text-align: center;
 
+ 
+}
+.app__header{
+  border-bottom: 1px solid lightgray;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
  
 }
 .app__header-img {
@@ -15,5 +22,15 @@
   object-fit: contain;
   background-color: white;
   padding: 0 10px;
-  border-bottom: 1px solid lightgray;
+  
+}
+.app__header-btn{
+  display: flex;
+  align-items: center;
+}
+
+.app__signup{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
