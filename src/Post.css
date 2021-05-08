@@ -3,7 +3,7 @@
     max-width: 500px;
     background-color: white;
     border: 1px solid lightgray;
-    margin: 45px 20px;
+    margin: 45px auto;
 }
 .post__header{
     display: flex;

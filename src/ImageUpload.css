@@ -1,0 +1,27 @@
+.imageUpload{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 10px auto;
+}
+
+.imageUpload__caption{
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1.5px solid lightgray;
+    border-radius: 25px;
+}
+.upload-btn{
+    border: 1.5px solid lightgray;
+    border-radius: 25px;
+    width: 25%;
+    margin: 10px 0 0 0;
+}
+
+input[type=file]::file-selector-button {
+  border: 1.5px solid lightgray;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: white;
+  transition: 1s;
+}

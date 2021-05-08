@@ -4,7 +4,7 @@
 }
 
 .app {
-  background-color: #fafafa;
+  background-color: rgb(250,250,250);
   height: 100vh;
   width: 100%;
  text-align: center;
@@ -13,8 +13,9 @@
 }
 .app__header{
   border-bottom: 1px solid lightgray;
-   display: grid;
-   grid-template-columns: 1fr 1fr;
+ display: flex;
+ justify-content: space-between ;
+   
  
 }
 .app__header-img {
@@ -27,6 +28,7 @@
 .app__header-btn{
   display: flex;
   align-items: center;
+ 
 }
 
 .app__signup{
