@@ -7,6 +7,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal'
 import { Button, Input } from '@material-ui/core';
 import ImageUpload from './ImageUpload';
+import Avatar from '@material-ui/core/Avatar'
 
 function getModalStyle() {
   const top = 50;
@@ -105,7 +106,11 @@ function App() {
           alt='logo' />
         <div className='app__header-btn'>
           {user ? (
-            <Button onClick={() => auth.signOut()}>Log Out</Button>
+            <div>
+
+              <Button onClick={() => auth.signOut()}>Log Out</Button>
+
+            </div>
           ) : (
             <div>
               <Button onClick={() => setOpenSignIn(true)} >Sign In</Button>
@@ -199,6 +204,8 @@ function App() {
           return (
             <Post
               key={id}
+              postId={id}
+              user={user}
               username={post.username.username}
               caption={post.caption}
               imageUrl={post.imageUrl}

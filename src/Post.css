@@ -22,3 +22,22 @@
     font-weight: normal;
     padding: 20px;
 }
+.post__form{
+    display: flex;
+    width: 100%;  
+    margin-top: 10px;
+}
+.post__input{
+    padding: 10px;
+    border: none;
+    border-top: 1px solid lightgray;
+    width: 80%;
+    
+}
+.post__btn{
+    width: 20%;
+    background: lightgray;
+    border: none;
+    border-top: 1px solid lightgray;
+    color: #3f729b;
+}
