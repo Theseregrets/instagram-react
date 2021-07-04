@@ -2,6 +2,9 @@
 
 this is an instagram-clone made using react, redux and firebase
 
+## Live Project
+[Click Here!](https://instagram-clone-react-6e17b.web.app/)
+
 #### feature
 1. user authentication
 2. upload image
@@ -10,6 +13,7 @@ this is an instagram-clone made using react, redux and firebase
 5. signIn/Up 
 6. Log out
 
+## Preview
 
 <img src='./imgs/Screenshot (59).png'>
 |<img src='./imgs/Screenshot (56).png'>|<img src='./imgs/Screenshot (57).png'>|
